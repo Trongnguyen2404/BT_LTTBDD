@@ -5,7 +5,6 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import com.example.lttbdd_t2_b2.ui.MainScreen
 import com.example.lttbdd_t2_b2.ui.theme.LibraryTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +13,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             LibraryTheme {
                 Surface(color = MaterialTheme.colorScheme.background) {
-                    MainScreen()
+                    Navigation()
                 }
             }
         }
