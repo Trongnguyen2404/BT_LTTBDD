@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BTVN02_T3_JETPACKCOMPOSE_LETRIEUDUY" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
